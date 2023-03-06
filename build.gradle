@@ -28,6 +28,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-devtools'
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.2.0'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	testImplementation 'org.springframework.security:spring-security-test:${spring-security.version}'
 }
 
 tasks.named('test') {
